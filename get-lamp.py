@@ -65,6 +65,7 @@ def get_php():
     os.system('sudo apt-get update')
     os.system('apt-get install php7.0')
     os.system('apt-get install libapache')
+    os.system('apt-get install php-mysql')
     print '*********正在重启Apache2*********'
     os.system('/etc/init.d/apache2 restart')
     print '*********重启完成*********'
