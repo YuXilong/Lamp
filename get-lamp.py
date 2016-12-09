@@ -148,7 +148,7 @@ if __name__ == '__main__':
 
     use_time = end_time - start_time
 
-    print '安装共用时：%d分%d秒,你可以访问网站根目录的test.php来确认安装是否成功' % (use_time / 60, use_time % 60)
+    print '安装共用时：%d分%d秒,你可以访问网站根目录的test.php来确认安装是否成功!' % (use_time / 60, use_time % 60)
 
 
 
